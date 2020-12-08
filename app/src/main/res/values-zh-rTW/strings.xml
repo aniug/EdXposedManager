@@ -4,7 +4,7 @@
     <!-- General/various strings -->
     <string name="menuSend">傳送</string>
     <string name="menuSaveToSd">儲存到裝置上</string>
-    <string name="xposed_not_active">最新版本的 EdXposed 尚未安裝或啟用\n您是否已安裝過框架並重新啟動手機？\n可在設定中關閉狀態檢查</string>
+    <string name="xposed_not_active">最新版本的 EdXposed 尚未安裝或啟用\n可在設定中關閉狀態檢查</string>
 
     <!-- Welcome screen / main sections -->
     <string name="tabInstall">裝置</string>
@@ -107,7 +107,7 @@
     <string name="settings_title_theme">主題</string>
     <string name="settings_theme_light">亮色</string>
     <string name="settings_theme_dark">暗色</string>
-    <string name="settings_theme_black">黑色（對 AMOLED 螢幕有幫助）</string>
+    <string name="settings_theme_black">黑色</string>
     <string name="settings_title_default_view">預設檢視</string>
 
     <!-- Support tab -->
@@ -250,7 +250,7 @@
     <string name="download_location">下載位置</string>
     <string name="download_location_summ">選擇 APK 檔案的下載位置（僅限模組）</string>
     <string name="restart_needed">需要重新啟動</string>
-    <string name="cache_cleaned">應用快取已清除。需要重新開啟</string>
+    <string name="cache_cleaned">快取已清除。需要重新開啟</string>
     <string name="update_download_list">模組清單將在幾秒鐘內載入</string>
     <string name="no_connection_available">沒有可用的連線</string>
     <string name="not_logcat">如果有人要求您提供一份 Android 系統日誌，那麼您來錯了地方。在此處顯示的是 EdXposed 的日誌資訊；如果您想抓取系統日誌，可嘗試我們的「Log Catcher」Magisk 模組。</string>
@@ -298,8 +298,7 @@
     <string name="settings_title_dynamic_modules">即時模組清單</string>
     <string name="settings_summary_dynamic_modules">啟用後，每個應用程式啟動時重新載入最新的模組清單</string>
     <string name="title_compat_list">相容模式</string>
-    <string name="settings_summary_black_white_list">啟用本選項之後，您可以在「Xposed Hide」設定清單\nXposed Hide（黑）：被選取的應用程式不會載入 EdXposed 的模組\n注意：使用 Xposed Hide 可能會導致某些系統全域性模組不能正常運作。</string>
-    <string name="white_list_mode_summary">Xposed Hide（白）：僅被選取的應用程式會載入 EdXposed 的模組\nXposed Hide 需要被啟用</string>
+    <string name="white_list_mode_summary">Xposed Hide（黑）：（默认）被選取的應用程式不會載入 EdXposed 的模組\nXposed Hide（白）：僅被選取的應用程式會載入 EdXposed 的模組\n注意：使用 Xposed Hide 可能會導致某些系統全域性模組不能正常運作。</string>
 
     <string name="meowcat">小喵工作室</string>
     <string name="coolapk">酷安</string>
@@ -333,19 +332,17 @@
     <string name="settings_sort_by_update_time">更新時間</string>
     <string name="settings_sort_by_update_time_reverse">更新時間（降序）</string>
     <string name="app_no_ui">應用程式未提供使用者介面</string>
-    <string name="settings_title_show_modules">顯示模組</string>
-    <string name="settings_summary_show_modules">在應用程式清單內顯示模組。\n此選項並不會移除已勾選的應用標識。</string>
+    <string name="menu_show_modules">顯示模組</string>
     <string name="compile_failed">最佳化失敗</string>
     <string name="compile_failed_with_info">最佳化失敗: </string>
     <string name="hook_modules">強制掛鉤模組</string>
-    <string name="hook_modules_summary">強制新增模組到白名單並從黑名單移除\n關閉本選項不會把模組從白名單移除\nXposed Hide 需要被啟用</string>
+    <string name="hook_modules_summary">強制新增模組到白名單並從黑名單移除\n關閉本選項不會把模組從白名單移除</string>
     <string name="not_installed">未安裝</string>
     <string name="ok">好</string>
     <string name="settings_title_pass_safetynet">使 SafetyNet 通過驗證</string>
-    <string name="settings_summary_pass_safetynet">強制新增 GMS 和 GSF 到黑名單並從白名單當中移除\n關閉本選項不會把模組從黑名單移除\nXposed Hide 需要被啟用</string>
+    <string name="settings_summary_pass_safetynet">強制新增 GMS 和 GSF 到黑名單並從白名單當中移除\n關閉本選項不會把模組從黑名單移除</string>
     <string name="support_group_telegram_channel_label">Telegram 頻道：@EdXposed</string>
     <string name="settings_title_old_success_color">使用舊的狀態啟用顏色（綠色）</string>
-    <string name="warning_list_not_enabled">Xposed Hide 尚未被啟用\n您可以在設定當中啟用</string>
     <string name="empty_param">參數空白</string>
     <string name="reboot_system">完整重新啟動</string>
     <string name="settings_summary_stop_verbose_log">在下次重新啟動前詳細記錄將不再被抓取</string>
@@ -376,4 +373,5 @@
     <string name="settings_summary_disable_hidden_api_bypass">不要繞過隱藏 API 可以避免某些 app（如 SnapChat）檢測到 Xposed 框架，這些 API 預設停用。\n<b>警告：</b>啟用這個選項可能造成某些功能無法正常運作，或發生其他更糟糕的事。</string>
     <string name="settings_title_dark_status_bar">深色狀態欄（遮罩）</string>
     <string name="download_committer">提交者: %s</string>
+    <string name="settings_group_app">應用程式</string>
 </resources>

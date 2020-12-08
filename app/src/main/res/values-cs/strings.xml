@@ -102,7 +102,7 @@
     <string name="settings_title_theme">Motiv</string>
     <string name="settings_theme_light">Světlý</string>
     <string name="settings_theme_dark">Tmavý</string>
-    <string name="settings_theme_black">Černý (užitečné pro AMOLED displeje)</string>
+    <string name="settings_theme_black">Černý</string>
     <string name="settings_title_default_view">Výchozí zobrazení</string>
 
     <!-- Support tab -->
@@ -292,5 +292,6 @@
     <string name="settings_title_disable_verbose_log">Zakázat podrobné záznamy</string>
     <string name="logs_verbose_disabled">Podrobné záznamy vypnuty.</string>
     <string name="settings_group_framework">Framework</string>
-    <string name="settings_title_show_modules">Show modules and manager</string>
+    <string name="menu_show_modules">Show modules and manager</string>
+    <string name="settings_group_app">Aplikace</string>
 </resources>

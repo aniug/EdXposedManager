@@ -104,7 +104,7 @@
     <string name="settings_title_theme">Tema</string>
     <string name="settings_theme_light">Lyst</string>
     <string name="settings_theme_dark">Mørkt</string>
-    <string name="settings_theme_black">Svart (nyttig for AMOLED-skjermer)</string>
+    <string name="settings_theme_black">Svart</string>
     <string name="settings_title_default_view">Standardvisning</string>
 
     <!-- Support tab -->
@@ -326,8 +326,7 @@
     <string name="settings_sort_by_update_time">Sorter etter oppdateringstidspunkt</string>
     <string name="settings_sort_by_update_time_reverse">Sorter etter oppdateringstidspunkt (reversert)</string>
     <string name="app_no_ui">Denne appen tilbyr ikke et brukergrensesnitt</string>
-    <string name="settings_title_show_modules">Vis moduler og behandleren</string>
-    <string name="settings_summary_show_modules">Vis moduler og behandleren i applisten\nDenne innstillingen fjerner ikke app-avhukingsflagg</string>
+    <string name="menu_show_modules">Vis moduler og behandleren</string>
     <string name="compile_failed">Optimalisering mislyktes, eller så er tilbakemeldingsverdien tom</string>
     <string name="hook_modules">Fremtving hekting av moduler</string>
     <string name="not_installed">Ikke installert</string>
@@ -341,4 +340,5 @@
     <string name="settings_summary_stop_log">Modulloggen vil stoppe innhentingen før den neste omstarten</string>
     <string name="settings_title_disable_modules_log">Skru av modulloggføringer</string>
     <string name="settings_summary_disable_modules_log">Unntaksmeldinger som blir slengt ut av modulen, vil fortsatt bli innhentet normalt</string>
+    <string name="settings_group_app">App</string>
 </resources>
